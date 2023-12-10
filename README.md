@@ -38,3 +38,6 @@ Youtube API, Python, MongoDB, SQL, Streamlit
 conclusion:
 
 This project aims to develop a user-friendly Streamlit application that utilizes the Google API to extract information on a YouTube channel, stores it in a MongoDB database, migrates it to a SQL data warehouse, and enables users to search for channel details and join tables to view data in the Streamlit app.
+
+
+linkedin demo video link=https://www.linkedin.com/posts/kaushik-kathwal-372769290_youtube-data-harvesting-and-warehousing-activity-7139502759640285184-fkHJ?utm_source=share&utm_medium=member_desktop
