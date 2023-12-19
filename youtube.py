@@ -22,7 +22,7 @@ def YoutubeApi_key_connection():
     api_service_name = "youtube"
     api_version = "v3"
 
-    api_key="AIzaSyAMQw-nR3cKC9ROik-e9NHTXuj4JIlNpUI"
+    api_key="your api key"
 
     youtube = build(api_service_name,api_version,developerKey=api_key)
     return youtube
@@ -196,7 +196,7 @@ def channel_details(channel_id):
 def channel_table():
     mydb = psycopg2.connect(host='localhost',
                             user='postgres',
-                            password='12345',
+                            password='your password',
                             port="5432",
                             database="Youtube")
     cursor=mydb.cursor()
@@ -256,7 +256,7 @@ def channel_table():
 def videos_table():
     mydb = psycopg2.connect(host='localhost',
         user='postgres',
-        password='12345',
+        password='your password',
         port="5432",
         database="Youtube")
     cursor=mydb.cursor()
@@ -329,7 +329,7 @@ def videos_table():
 def comment_table():
     mydb = psycopg2.connect(host='localhost',
                         user='postgres',
-                        password='12345',
+                        password='your password',
                         port="5432",
                         database="Youtube")
     cursor=mydb.cursor()
